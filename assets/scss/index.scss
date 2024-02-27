@@ -37,10 +37,10 @@ html {
     width: 800px;
     max-width: 100%;
     margin: 0 auto;
-    padding: 20px;
+
     position: relative;
     z-index: 10;
-    background-color: rgba(247, 247, 247, 0.8);
+
     border-radius: 8px;
 }
 .social-share {
@@ -345,6 +345,7 @@ input[type="number"] {
     input {
         margin-top: 6px;
     }
+    flex-direction: column;
 }
 .more-ans-input-line {
     width: 100%;
@@ -769,7 +770,7 @@ input[type="number"] {
     align-items: start;
     line-height: 1.4;
     // margin-bottom: 15px;
-    padding: 8px 16px 7px 16px;
+    padding: 8px 16px 5px 0px;
     border-radius: 3px;
 }
 .ans-group.show-ans {
@@ -1006,7 +1007,7 @@ input[type="number"] {
     display: flex;
     gap: 20px;
     .card-left {
-        width: 340px;
+        width: 100%;
         max-width: 100%;
         .px-dropdown {
             position: relative;
